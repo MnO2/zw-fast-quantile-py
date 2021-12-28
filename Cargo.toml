@@ -1,0 +1,13 @@
+[package]
+name = "zw-fast-quantile-py"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "zw_fast_quantile_py"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = { version = "0.15.1", features = ["extension-module"] }
+zw-fast-quantile = "0.2"
