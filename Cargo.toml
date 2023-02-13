@@ -9,6 +9,6 @@ name = "zw_fast_quantile_py"
 crate-type = ["cdylib"]
 
 [dependencies]
-pyo3 = { version = "0.15.1", features = ["extension-module"] }
+pyo3 = { version = "0.18.1", features = ["extension-module"] }
 zw-fast-quantile = "0.2.3"
 ordered-float = "2.8.0"
